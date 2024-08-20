@@ -9,26 +9,26 @@ export const fetchPodiums = async () => {
 
     let podums = [
         [
-          { "id": 1, "name": "Player A", "image": "https://static.gamersclub.com.br/players/avatar/84180/84180_full.jpg" },
-          { "id": 2, "name": "Player B", "image": "https://static.gamersclub.com.br/players/avatar/84180/84180_full.jpg" },
-          { "id": 3, "name": "Player C", "image": "https://static.gamersclub.com.br/players/avatar/84180/84180_full.jpg" }
+          { "id": 1, "name": "Player A", "image": "https://static.gamersclub.com.br/players/avatar/84180/84180_full.jpg","level":17 },
+          { "id": 2, "name": "Player B", "image": "https://static.gamersclub.com.br/players/avatar/84180/84180_full.jpg","level":20 },
+          { "id": 3, "name": "Player C", "image": "https://static.gamersclub.com.br/players/avatar/84180/84180_full.jpg","level":19 }
         ],
         [
-          { "id": 4, "name": "Player D", "image": "https://static.gamersclub.com.br/players/avatar/84180/84180_full.jpg" },
-          { "id": 5, "name": "Player E", "image": "https://static.gamersclub.com.br/players/avatar/84180/84180_full.jpg" },
-          { "id": 6, "name": "Player F", "image": "https://static.gamersclub.com.br/players/avatar/84180/84180_full.jpg" }
-        ],
-        ,
-        [
-          { "id": 4, "name": "Player D", "image": "https://static.gamersclub.com.br/players/avatar/84180/84180_full.jpg" },
-          { "id": 5, "name": "Player E", "image": "https://static.gamersclub.com.br/players/avatar/84180/84180_full.jpg" },
-          { "id": 6, "name": "Player F", "image": "https://static.gamersclub.com.br/players/avatar/84180/84180_full.jpg" }
+          { "id": 4, "name": "Player D", "image": "https://static.gamersclub.com.br/players/avatar/84180/84180_full.jpg","level":7 },
+          { "id": 5, "name": "Player E", "image": "https://static.gamersclub.com.br/players/avatar/84180/84180_full.jpg","level":5 },
+          { "id": 6, "name": "Player F", "image": "https://static.gamersclub.com.br/players/avatar/84180/84180_full.jpg","level":4 }
         ],
         ,
         [
-          { "id": 4, "name": "Player D", "image": "https://static.gamersclub.com.br/players/avatar/84180/84180_full.jpg" },
-          { "id": 5, "name": "Player E", "image": "https://static.gamersclub.com.br/players/avatar/84180/84180_full.jpg" },
-          { "id": 6, "name": "Player F", "image": "https://static.gamersclub.com.br/players/avatar/84180/84180_full.jpg" }
+          { "id": 4, "name": "Player D", "image": "https://static.gamersclub.com.br/players/avatar/84180/84180_full.jpg","level":17 },
+          { "id": 5, "name": "Player E", "image": "https://static.gamersclub.com.br/players/avatar/84180/84180_full.jpg","level":6 },
+          { "id": 6, "name": "Player F", "image": "https://static.gamersclub.com.br/players/avatar/84180/84180_full.jpg","level":17 }
+        ],
+        ,
+        [
+          { "id": 4, "name": "Player D", "image": "https://static.gamersclub.com.br/players/avatar/84180/84180_full.jpg","level":1 },
+          { "id": 5, "name": "Player E", "image": "https://static.gamersclub.com.br/players/avatar/84180/84180_full.jpg","level":17 },
+          { "id": 6, "name": "Player F", "image": "https://static.gamersclub.com.br/players/avatar/84180/84180_full.jpg","level":17 }
         ],
         
       ];

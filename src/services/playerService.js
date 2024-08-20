@@ -4,8 +4,24 @@ export const getPlayers = async () => {
   try {
     //const response = await axios.get('URL_DA_SUA_API');
 
-
-    let listExample=[{id:1,name:"joao",stats:"11441"},{id:3,name:"pedro",stats:"444"},{id:4,name:"maria",stats:"44"},{id:5,name:"xesa",stats:"12311"}];
+    let listExample = 
+      [
+        { "id": 1, "name": "Player A", "image": "https://static.gamersclub.com.br/players/avatar/84180/84180_full.jpg","level":17 },
+        { "id": 2, "name": "Player B", "image": "https://static.gamersclub.com.br/players/avatar/84180/84180_full.jpg","level":20 },
+        { "id": 3, "name": "Player C", "image": "https://static.gamersclub.com.br/players/avatar/84180/84180_full.jpg","level":19 },
+        { "id": 1, "name": "Player A", "image": "https://static.gamersclub.com.br/players/avatar/84180/84180_full.jpg","level":17 },
+        { "id": 2, "name": "Player B", "image": "https://static.gamersclub.com.br/players/avatar/84180/84180_full.jpg","level":20 },
+        { "id": 3, "name": "Player C", "image": "https://static.gamersclub.com.br/players/avatar/84180/84180_full.jpg","level":19 },
+        { "id": 1, "name": "Player A", "image": "https://static.gamersclub.com.br/players/avatar/84180/84180_full.jpg","level":17 },
+        { "id": 2, "name": "Player B", "image": "https://static.gamersclub.com.br/players/avatar/84180/84180_full.jpg","level":20 },
+        { "id": 3, "name": "Player C", "image": "https://static.gamersclub.com.br/players/avatar/84180/84180_full.jpg","level":19 },
+        { "id": 1, "name": "Player A", "image": "https://static.gamersclub.com.br/players/avatar/84180/84180_full.jpg","level":17 },
+        { "id": 2, "name": "Player B", "image": "https://static.gamersclub.com.br/players/avatar/84180/84180_full.jpg","level":20 },
+        { "id": 3, "name": "Player C", "image": "https://static.gamersclub.com.br/players/avatar/84180/84180_full.jpg","level":19 },
+        { "id": 1, "name": "Player A", "image": "https://static.gamersclub.com.br/players/avatar/84180/84180_full.jpg","level":17 },
+        { "id": 2, "name": "Player B", "image": "https://static.gamersclub.com.br/players/avatar/84180/84180_full.jpg","level":20 },
+        { "id": 3, "name": "Player C", "image": "https://static.gamersclub.com.br/players/avatar/84180/84180_full.jpg","level":19 },
+      ];
 
     console.log(listExample);
     return listExample;
